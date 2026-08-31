@@ -9,24 +9,24 @@ LinkedIn: linkedin.com/in/connor-slutsky
 
 ## Co-Op Work Experience
 
-Co-Op for Assembly Frame Process Engineering Group  
-    Dates: August 2024 to December 2024  
-    Company: Honda Development and Manufacturing of America  
-    Location: Marysville Auto Plant (Ohio)   
-    Technical Skills: Power BI, VBA, JavaScript/HTML/CSS  
-    Non-technical Skills: Communication, Collaboration, Project Management/Gantt Charts, Lean Six Sigma  
-Co-Op For Regional Process Team  
-    Dates: June 2025 to August 2025  
-    Company: Honda Development and Manufacturing of America  
-    Location: Auto Development Center (Raymond, OH)  
-    Technical Skills: Python, pandas, Matplotlib, SAP Business Objects, Excel, Power Automate  
-    Non-technical Skills: Communication, Collaboration, Project Management, Scrum Agile  
-Software Engineering Co-Op  
-    Dates: Januray 2026 to May 2026  
-    Company: Radiance Technologies, Inc.  
-    Location: Dayton, OH  
-    Technical Skills: Go, React, TypeScript, Git, Docker, Kubernetes, Docker Compose, Makefile, SQL, MariaDB  
-    Non-technical Skills: Communication, Collaboration, Project Management, Scrum Agile  
+- Co-Op for Assembly Frame Process Engineering Group  
+  - Dates: August 2024 to December 2024  
+  - Company: Honda Development and Manufacturing of America  
+  - Location: Marysville Auto Plant (Ohio)   
+  - Technical Skills: Power BI, VBA, JavaScript/HTML/CSS  
+  - Non-technical Skills: Communication, Collaboration, Project Management/Gantt Charts, Lean Six Sigma  
+- Co-Op For Regional Process Team  
+  - Dates: June 2025 to August 2025  
+  - Company: Honda Development and Manufacturing of America  
+  - Location: Auto Development Center (Raymond, OH)  
+  - Technical Skills: Python, pandas, Matplotlib, SAP Business Objects, Excel, Power Automate  
+  - Non-technical Skills: Communication, Collaboration, Project Management, Scrum Agile  
+- Software Engineering Co-Op  
+  - Dates: Januray 2026 to May 2026  
+  - Company: Radiance Technologies, Inc.  
+  - Location: Dayton, OH  
+  - Technical Skills: Go, React, TypeScript, Git, Docker, Kubernetes, Docker Compose, Makefile, SQL, MariaDB  
+  - Non-technical Skills: Communication, Collaboration, Project Management, Scrum Agile  
     
 
 ## Project Sought
