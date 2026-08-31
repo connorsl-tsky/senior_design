@@ -4,7 +4,7 @@ Hello! My Name is Connor Slutsky, and I'm currently a senior computer science ma
 
 ## Contact Information
 
-Email: slutskcp@mail.uc.edu
+Email: slutskcp@mail.uc.edu  
 LinkedIn: linkedin.com/in/connor-slutsky
 
 ## Co-Op Work Experience
