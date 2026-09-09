@@ -8,7 +8,7 @@ BIC
 
 ## Project Topic
 
-**TODO**  
+Beginner ASL learners often practice signing alone, with no way to know in real time whether they've formed a sign correctly. We propose a webcam-based computer vision tool that recognizes ASL fingerspelling and gives the learner instant feedback on accuracy, turning solo practice into guided learning.  
 
 ## Abstract And Problem Statement
 
