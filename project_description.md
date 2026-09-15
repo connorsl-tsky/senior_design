@@ -3,7 +3,7 @@ BIC
 
 ## Members
  - Braden Monnin, BS Computer Science + M.Eng. AI, monninbm@mail.uc.edu
- - Isaac Dowdy, BS Computer Science, dowdyis@mail.uc.edu
+ - Isaac Dowdy, BS Computer Science + M.Eng. CS, dowdyis@mail.uc.edu
  - Connor Slutsky, BS Computer Science, slutskcp@mail.uc.edu
 
 ## Project Topic
