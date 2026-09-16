@@ -11,7 +11,7 @@ Advisor meetings are team meetings that include the advisor. Advisor meetings wi
 Beginner ASL learners often practice signing alone, with no way to know in real time whether they've formed a sign correctly. We propose a webcam-based computer vision tool that recognizes ASL fingerspelling and gives the learner instant feedback on accuracy, turning solo practice into guided learning.
 
 ## ROLES
-Generally, all team members will share equal responsibility. (here we can assign roles in the realm of accountability, e.g. although everyone will record in the design notebook, Team Member A is accountable if something isn’t right about the design notebook, and thus has a little bit more responsibility to make sure it’s used appropriately).
+Generally, all team members will share equal responsibility, but roles indicate accountability (e.g. Team Member A is Documentation Owner - everyone will contribute to documentation but Team Member A will be accountable if documentation isn't in good shape by any deadlines). Isaac will be Coordinator, tracking deadlines, running meetings, and keeping the team aligned with course requirements. Braden will be Lead Developer/Architect, and will guide technical direction and key design decisions. Connor will be Docuemntation Owner and maintain the deisgn report, notebook consistency, and submission formatting. 
 
 ## EXPECTATIONS
 Each team member will treat each other and the advisor with kindness and respect. Each team member will assume that other team members and the advisor seek what’s best for the team and the project. Each team member will be honest and will take accountability for mistakes and will not try to hide or cover-up mistakes. Each team member is expected to communicate effectively and in a timely manner. 
