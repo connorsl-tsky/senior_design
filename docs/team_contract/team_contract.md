@@ -19,8 +19,8 @@ Each team member will treat each other and the advisor with kindness and respect
 # 
   
 Braden Monnin | EMAIL | PHONE  
-Isaac Dowdy | EMAIL | PHONE   
+Isaac Dowdy | dowdyis@mail.uc.edu | (513) 519-7771   
 Connor Slutsky | slutskcp@mail.uc.edu | (614) 537-7864  
-ADVISOR | EMAIL | PHONE  
+Dr. Jillian Aurisano | aurisajm@ucmail.uc.edu
 
 
