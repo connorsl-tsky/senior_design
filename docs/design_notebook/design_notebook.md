@@ -13,6 +13,7 @@ Narrow down project topics and begin talking about advisor ideas
 ### Results
 
 We narrowed down to ASL to text translator framed as a tool to help people learn ASL (see topic statement)  
+
 Runner up ideas include the Scheduler, or interactive calendar. Framed as an improvement to when2meet.com, it could move commitments around dynamically if plans change, would need integration with existing calendars (outlook, google, apple), maybe include AI optimizations by learning other people's calendars when something would be best to schedule, can create plans considering others class schedules, and could potentially read from Discord/Slack to dynamically update calendars based on messages. These were all possible ideas, and not features, but IIRC none of us were super stoked about it as it didn't really stand out compared to existing applications  
 
 Another runner up idea was campus navigation, which would help people find their classes and find the best route between buildings, but the bearcat app / my bearcat network already has a tool to traverse buildings, and it would be very difficult to traverse between classes as it would either be scraping building plans or tediously walking around buildings, plus it would be difficult to deal with construction or changing routes or rooms moving and that kind of stuff, so it was bumped down
