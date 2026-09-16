@@ -1,7 +1,6 @@
 # Design Constraints Essay
 Senior Design I  
 9/15/26  
-By: Connor Slutsky  
 Project: ASL to Text Translator  
 Team: Connor Slutsky, Isaac Dowdy, Braden Monnin  
 
