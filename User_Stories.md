@@ -12,6 +12,8 @@ US-03 (secondary): As a Deaf conversation partner, I want the system to catch im
 
 US-04 (hidden): As a State Privacy Regulator, I want the application to immediately discard webcam frames from RAM after processing rather than saving the user's body and hand geometry, so that the software legally complies with strict state biometric privacy laws.
 
+All User Stories INVEST checked
+
 ## Use Case
 
 UC-01  
