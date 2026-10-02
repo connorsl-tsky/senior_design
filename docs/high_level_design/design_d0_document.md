@@ -21,13 +21,13 @@ https://app.diagrams.net/#Lasl_block_diagram.drawio#%7B%22pageId%22%3A%22asl-blo
 
 | Component | Responsibility | Interfaces in | Interfaces out | Primary owner |
 |---|---|---|---|---|
-| Frame capture | Holds each webcam frame in RAM only until the Hand tracker has finished with it. | I2 | I3 |  |
-| Hand tracker | Finds hand positioning from video frames, finishing with the rest position. | I3 | I4 |  |
-| ML Model | Classifies completed signs to its highest confidence match. | I4 | I5, I6 |  |
-| ASL to Text Translation | Maps a classified sign label to its English text. | I6 | I7 |  |
-| Determine Sign Accuracy | Scores how closely the performed hand shape matches the reference shape for the recognized sign. | I5 | I8 |  |
-| Confidence Check | Decides whether a result is trustworthy enough to show, or the sign should be reported as not recognized. | I7, I8 | I9 |  |
-| Send Feedback | Presents the final text, hand-shape feedback, or warning to the learner on screen. | I9 | I10 |  |
+| Frame capture | Holds each webcam frame in RAM only until the Hand tracker has finished with it. | I2 | I3 | Braden Monnin |
+| Hand tracker | Finds hand positioning from video frames, finishing with the rest position. | I3 | I4 | Isaac Dowdy |
+| ML Model | Classifies completed signs to its highest confidence match. | I4 | I5, I6 | Connor Slutsky |
+| ASL to Text Translation | Maps a classified sign label to its English text. | I6 | I7 | Isaac Dowdy |
+| Determine Sign Accuracy | Scores how closely the performed hand shape matches the reference shape for the recognized sign. | I5 | I8 | Braden Monnin  |
+| Confidence Check | Decides whether a result is trustworthy enough to show, or the sign should be reported as not recognized. | I7, I8 | I9 | Connor Slutsky |
+| Send Feedback | Presents the final text, hand-shape feedback, or warning to the learner on screen. | I9 | I10 | Braden Monnin |
 
 External (not built by us): **ASL learner** (I1 out, I10 in) and **Webcam** (I1 in, I2 out).
 
