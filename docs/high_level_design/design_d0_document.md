@@ -35,18 +35,24 @@ External (not built by us): **ASL learner** (I1 out, I10 in) and **Webcam** (I1 
 
 ## Interface specification table
 
-| ID |  | Inputs / outputs | Data format | Protocol | Error handling |
+| ID | Inputs | Outputs | Output Data format | Output Protocol | Error handling |
 |---|---|---|---|---|---|
-| I1 | 
-| I2 | 
-| I3 |
-| I4 | 
-| I5 | 
-| I6 |
-| I7 | 
-| I8 | 
-| I9 | 
-| I10 | 
+| I1 | Hand signs (physical movement) from ASL Learner (User) | Hand signs (physical movement) to Webcam | N/A - handled by hardware | N/A - handled by hardware | Error in webcam - outputted to client via Feedback, unrecognized hand signs - low confidence score from Confidence Checker outputed via Feedback |
+| I2 | Visual information (video) from Webcam | Visual information (video) to Frame Capture | N/A - handled by operating system | N/A handled by operating system | Corrupted video - caught by Frame Capture and outputted eventually via Feedback | 
+| I3 | Frame object (JPEGs) from Frame Capture | Frame object (JPEGs) to Hand Tracker | JPEG, encoded in JSON | HTTPS | Error in dividing video to frames - caught by Frame Capture and outputted via Feedback | 
+| I4 | Landmarks (tensor) of hands from Hand Tracker | Landmarks (tensor) of hands to ML Model | Tensor / JSON | Direct transfer / HTTP (REST) | Landmarks not detected - caught by hand tracker and outputted eventually via Feedback |    
+| I5 | Label (string) and landmark sequence (tensor) from ML model | label and landmark sequence (vector) to Sign Accuracy Determiner | Vector | Direct transfer | Gaps in landmark sequence caught by Sign Accuracy Determiner |
+| I6 | Sign label (string) / confidence (double) from ML Model | Sign label / confidence (vector) to Translator | Vector / JSON | Direct transfer / HTTP (REST) | Unrecognized sign caught by ML Model | 
+| I7 | Text (string) and confidence (double) from Translator | text and confidence (vector) to Confidence Checker | Vector | Direct transfer | Translation error (e.g. unable to translate) caught by Translator |
+| I8 | Scores (tensor) from Sign Accuracy Determiner | Scores (tensor) to Confidence Checker (no change) | Tensor | Direct transfer | Direct transfer without change won't cause errors? | 
+| I9 | Text (string) and shape scores (tensor) from Confidence Checker | Text and shape scores (object) to Feedback (client) | JSON | HTTPS | Error in inputs in Confidence Checker caught and transferred to Feedback |
+| I10 | Text (string) and shape scores (tensor) from Feedback | text (string) and shape scores (string) outputted to ASL Learner / User | Strings | Browser display | Error in processing text and scores caught by Feedback and displayed to User |
+
+Notes / Assumptions: 
+ - I3 - hand tracker might be backend
+ - I3 - hand tracker frames should be JPEG since we don't need the pixel-perfect accuracy of PNG, but alternatively we could also use something like TFRecord/HDF5/Tar to bundle images together. I'm not sure if that means you can group images together (e.g. if they're the same sign).
+ - I3 - we can start development locally with http, but https is probably preferred for a full deployment for the security
+ - I4 - hand tracker and ML model might both be backend components, and if they're in the same source code file you could pass the landmarks directly to the model. Otherwise, if we want to split them into separate services we can use HTTP / REST API. 
 
 ### Example 
 
