@@ -35,8 +35,6 @@ External (not built by us): **ASL learner** (I1 out, I10 in) and **Webcam** (I1 
 
 ## Interface specification table
 
-Every non-OK `status` value (`OUT_OF_FRAME`, `CAMERA_UNAVAILABLE`) is passed through unchanged by every stage down to Send Feedback, and stages skip their own work when it is set. That is how the out-of-frame warning (AC-01.2) reaches the learner without extra arrows.
-
 | ID |  | Inputs / outputs | Data format | Protocol | Error handling |
 |---|---|---|---|---|---|
 | I1 | 
