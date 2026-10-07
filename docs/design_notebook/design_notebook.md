@@ -1,59 +1,61 @@
-not exactly sure how these should be structured or if this is supposed to be individual, but we can record important decisions here i guess
 
-# 10/7 Meeting Minutes
+# 10/7/26 Meeting Minutes
 
 ### Attendance
 
-everyone
+Braden, Connor, Isaac
 
 ### Purpose
 
-Talk about Assignment 5 (high level design), and start on Assignment 6
-
-### Notes
-
-combine components in A5
-try to use existing model if possible - haven't found one that 100% what we want - max 250 words
-found library for hand tracking - built in computer vision models
-ML model will need enough development to be considered internal
-someone can do the inputs/outputs of video intake/input processing
-each of us take one of the previous components, one of us gets into a draft state by tomorrow
-and for A7 we can all finalize each of ours by next wednesday's meeting
-MediaPipe - hand tracker, some models that utilize it - html5 media devices api as input
-we need 
-- who takes what component
-- who can be the hero and do the external inputs/outputs
-- who gets their part in by tomorrow
-web assembly - for higher processing for web browser stuff
-we are settling on web browser, and something backend for the stuff
-pwa - multithreaded web app in browser - offline local application without .exe
-github pages link to download everything and run on device - serverless
-does it need to be deployed
-in the long run keep everything local probably, potentially deploy to cloud if we love it
-i can do ML model by tomorrow
-Isaac has some time in hte evening if i don't finish
-braden can help a little with research
-ml model will probably have a data component and algorithms that are essential for a6
-braden can do send feedback
-isaac can do results processing
-assignments are not strict
-for external components - last, and whoever finishes their components first will do those
-aim to finish A7 stuff by next wednesday - meet around this time - officially the week after next week
-brief interactino for aurisano - we talk to her a little, and maybe schedule a meeting
-office horus are right after class monday/wednesday
-i can fix the interfaces table for v2 - but low priority
-we want to start building sooner rather than later
-i can create a github org and migrate repo to their sometime soon
+Talk about Assignment 5 (high level design), and start planning for Assignment 6 (due tomorrow) and Assignment 7 (due next Wednesday 10/14/126) (both detailed system design)
 
 
-meeting minutes
--topics
--decisions
--action items and assignees
+### Decisions
+
+ - Assignment 5
+   - We combined the components in A5 from 9 to 5 (Video Capture, Input Processing, ML Model, Results Processing, and Feedback/UI)
+     - This will reduce future workload, and simplify the components that were pretty similar
+   - ML model may need enough development to be considered internal
+     - Braden said he found some models, but they may not have everything that we need, so we may need to augment them
+     - don't want too many of our components to be external. currently 2/5
+ - Design
+   - try to use existing ML model if possible - haven't found one that 100% what we want - e.g. max 250 ASL signs
+   - MediaPipe - library/framework for hand tracker, some models that utilize it
+     - html5 media devices api as input
+   - web assembly - we can use this for higher processing for web browser stuff
+   - we are settling on web browser for finalized deployment
+     - don't have to worry about confusing OS system calls, don't have to sacrifice portability, seems to be relatively straightforward in terms of video capture, fits well into a client/server approach, gives us options in terms of either all javascript, or javascript and some backend (e.g. python)
+   - PWA - multithreaded web app in browser - offline local application without .exe
+   - github pages link to download everything and run on device - serverless
+   - probably don't need to deploy it in cloud ever unless we love the result
+
+### Tasks
+
+ - Assignments 6 
+   - for A6, ML Model component is best
+     - it will probably have a data component and algorithms that are asked by the assignment
+   - I can do ML model by tomorrow
+   - Isaac has some time in hte evening if i don't finish
+   - Braden can help a little with research
+   - get into submittable but not perfect state by tomorrow
+ - Assignment 7
+   - Braden can do send feedback and Isaac can do results processing
+     - these assignments are not strict
+   - I will continue to polish/expand ML Model
+   - for external components - last, and whoever finishes their components first will do those
+   - aim to finish A7 stuff by next wednesday
+     - meet around same time
+ - Aurisano
+   - we talk to Aurisano a little a week after next week (10/21/26, ~220pm), and meet her and potentially schedule a meeting
+     - office hours are right after class monday/wednesday
+     - class is UI
+ - Other tasks
+   - i can fix the interfaces table for v2 - but low priority
+   - i can create a github org and migrate repo to their - sometime soon
+   
 
 
-
-# 9/9 Meeting Minutes
+# 9/9/26 Meeting Minutes
 
 ### Attendance
 
