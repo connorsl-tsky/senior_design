@@ -15,6 +15,10 @@ https://app.diagrams.net/#Lasl_block_diagram.drawio#%7B%22pageId%22%3A%22asl-blo
 
 ![ASL Learning Assistant Block Diagram](images/asl_block_diagram.drawio.png)
 
+Proposed revised block diagram: https://app.diagrams.net/#Lasl_block2.drawio#%7B%22pageId%22%3A%22nHnUDBgtQb6v7Befqk-X%22%7D
+
+![ASL Learning Assistant Block Diagram 2](images/asl_block2.drawio.png)
+
 ---
 
 ## Component responsibility table
