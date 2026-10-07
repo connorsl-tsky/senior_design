@@ -1,5 +1,58 @@
 not exactly sure how these should be structured or if this is supposed to be individual, but we can record important decisions here i guess
 
+# 10/7 Meeting Minutes
+
+### Attendance
+
+everyone
+
+### Purpose
+
+Talk about Assignment 5 (high level design), and start on Assignment 6
+
+### Notes
+
+combine components in A5
+try to use existing model if possible - haven't found one that 100% what we want - max 250 words
+found library for hand tracking - built in computer vision models
+ML model will need enough development to be considered internal
+someone can do the inputs/outputs of video intake/input processing
+each of us take one of the previous components, one of us gets into a draft state by tomorrow
+and for A7 we can all finalize each of ours by next wednesday's meeting
+MediaPipe - hand tracker, some models that utilize it - html5 media devices api as input
+we need 
+- who takes what component
+- who can be the hero and do the external inputs/outputs
+- who gets their part in by tomorrow
+web assembly - for higher processing for web browser stuff
+we are settling on web browser, and something backend for the stuff
+pwa - multithreaded web app in browser - offline local application without .exe
+github pages link to download everything and run on device - serverless
+does it need to be deployed
+in the long run keep everything local probably, potentially deploy to cloud if we love it
+i can do ML model by tomorrow
+Isaac has some time in hte evening if i don't finish
+braden can help a little with research
+ml model will probably have a data component and algorithms that are essential for a6
+braden can do send feedback
+isaac can do results processing
+assignments are not strict
+for external components - last, and whoever finishes their components first will do those
+aim to finish A7 stuff by next wednesday - meet around this time - officially the week after next week
+brief interactino for aurisano - we talk to her a little, and maybe schedule a meeting
+office horus are right after class monday/wednesday
+i can fix the interfaces table for v2 - but low priority
+we want to start building sooner rather than later
+i can create a github org and migrate repo to their sometime soon
+
+
+meeting minutes
+-topics
+-decisions
+-action items and assignees
+
+
+
 # 9/9 Meeting Minutes
 
 ### Attendance
