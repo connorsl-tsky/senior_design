@@ -85,7 +85,7 @@ Note: the shape of the tensors are unknown, and depend on the data (which we cur
    - Payload: 
 ```json
 {
-  "face": [15, 26, 49, 10, 254, 21],
+  "face": [15, 26, 49, 10, 254, 21], // filler values, actual values/shape unknown
   "left": [15, 23, 10, 43, 12, 43],
   "right": [17, 23, 9, 43, 12, 143]
 }
