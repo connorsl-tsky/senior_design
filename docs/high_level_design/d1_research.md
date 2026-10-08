@@ -145,6 +145,12 @@ winning model for the kaggle - google isolated signs competition referenced abov
    - something to keep in mind
 
 
+<br>
+
+what is a .parquet file
+ - https://en.wikipedia.org/wiki/Apache_Parquet
+ - column-oriented data storage format from apache hadoop
+
 ## claude
 
 sonnet 5.5 medium effort
